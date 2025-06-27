@@ -67,7 +67,7 @@ function Home() {
           <div className="space-x-4 mb-6">
             <button className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={scrollToProjects}>View Projects</button>
             <button className="bg-blue-300 text-black px-4 py-2 rounded hover:bg-blue-500" onClick={scrollToPublications}>View Publications</button>
-            <button onClick={() => window.open('/Tiffany_Resume.pdf')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-500">Download Resume</button>
+            <button onClick={() => window.open('/tiffany-website/Tiffany_Resume.pdf')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-500">Download Resume</button>
           </div>
 
           {/* Social Media Links Row */}
@@ -238,7 +238,7 @@ function Publications() {
     {
       title: 'Dynamic Modeling and Interactive Design of Origami Mechanisms',
       description: 'ICRA Multi-Stable and Origami-based Soft Robots Workshop',
-      link: "/Tianhui_Han_ICRA_Workshop.pdf"
+      link: "/tiffany-website/Tianhui_Han_ICRA_Workshop.pdf"
     },
   ];
   return (
