@@ -5,7 +5,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tiffany-website">
       <div className="min-h-screen bg-white text-gray-900 font-mono ">
         <h1 className="text-xl font-bold text-center bg-gray-100 pt-4 pb-4">Tianhui (Tiffany) Han</h1>
         {/* <nav className="bg-gray-200 p-4 shadow-md flex justify-center items-center ">
@@ -216,7 +216,7 @@ function Projects() {
         {sampleProjects.map((project, idx) => (
           <div key={idx} className="border p-4 rounded shadow-sm hover:scale-105 hover:shadow-md transition-all duration-200 cursor-pointer group">
             <h3 className="text-xl font-bold group-hover:text-blue-800 transition-colors duration-200"
-            onClick={() => window.open(project.link, '_blank')}>{project.title}</h3>
+              onClick={() => window.open(project.link, '_blank')}>{project.title}</h3>
             <p className="text-sm text-gray-600">{project.info}</p>
             <p className="mt-2 mb-2">{project.description}</p>
             <p className="text-sm text-gray-600">Tech: {project.tech.join(', ')}</p>
