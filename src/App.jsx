@@ -52,7 +52,7 @@ function Home() {
         <div className="flex-shrink-0">
           <img
             // src="/pictures/profile.png"
-            src="/tiffany-website/myphoto.png/>"
+            src="/tiffany-website/pictures/profile.png/>"
             alt="Tiffany Han"
             className="w-64 h-64 object-cover rounded-lg"
           />
